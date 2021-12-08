@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+
+.container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 250px;
+    max-height: 600px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.card {
+    display: grid;
+    margin: auto;
+    color: white;
+}
+
+.profile {
+    border-radius: 10px;
+    max-width:100%;
+    max-height:100%;
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.subtitle {
+    font-weight: 300;
+    font-size: 12px;
+    color: hsl(215, 51%, 70%);
+}
+
+#ethimg {
+    max-height: 15px;
+}
+
+.eth {
+    color:yellowgreen;
+}
+
+#daysimg {
+    max-height: 15px;
+}
+
+.days {
+    margin-left: auto;
+    color: hsl(215, 51%, 70%);
+}
+
+.numbers {
+    display: flex;
+}
+
+hr {
+    
+    border-top: 0.1px solid hsl(215, 32%, 27%);
+}
+
+.bottom {
+    display: flex;
+}
+
+.profilepicture {
+    max-height: 30px;
+    border: green solid 2px;
+    border-radius: 50%;
+}
+
+.name {
+    padding-left: 15px;
+    font-size: 10px;
+}
+
+.attribution {
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    bottom: 10px;
+}
+
+span {
+    color: hsl(215, 51%, 70%);
+}
